@@ -115,11 +115,15 @@ body {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .js-start {
   cursor: pointer;
+
+  @media (max-width: 660px) {
+    margin-bottom: -10px;
+  }
 }
 
 .shwag {
@@ -141,6 +145,8 @@ body {
 
   @media (max-width: 660px) {
     font-size: 1.4rem;
+    height: 200px;
+    margin-bottom: 40px;
   }
 
   div {

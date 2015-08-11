@@ -88,10 +88,13 @@ body {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding: 0 10px; }
+  padding: 0 15px; }
 
 .js-start {
   cursor: pointer; }
+  @media (max-width: 660px) {
+    .js-start {
+      margin-bottom: -10px; } }
 
 .shwag {
   position: absolute;
@@ -110,7 +113,9 @@ body {
   border-radius: 2px; }
   @media (max-width: 660px) {
     .content {
-      font-size: 1.4rem; } }
+      font-size: 1.4rem;
+      height: 200px;
+      margin-bottom: 40px; } }
   .content div {
     margin-left: 40px; }
 

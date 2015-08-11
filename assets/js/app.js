@@ -6,7 +6,7 @@ function startIntro() {
       "Welcome to the Computer Science Society Orientation!",
       "It's great to have you here with us today.",
       "Without wasting anymore time, let's get our first speaker on!",
-      "Give it up for <strong class='underline'>Shifa!</strong>"
+      "Put your hands together for <strong class='underline'>Shifa!</strong>"
     ],
     showCursor: false,
     backDelay: 1000,
