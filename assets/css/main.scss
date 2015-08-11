@@ -109,8 +109,12 @@ body {
   max-width: 900px;
   margin: 0 auto;
   height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 0 10px;
 }
 
@@ -148,10 +152,12 @@ body {
   width: 30px;
   height: 30px;
   margin-bottom: -10px;
+  transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
 
   &:hover {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 
