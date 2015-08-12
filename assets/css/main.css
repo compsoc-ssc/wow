@@ -90,11 +90,12 @@ body {
   flex-direction: row;
   padding: 0 15px; }
 
+@media (max-width: 660px) {
+  .heading {
+    margin-bottom: -10px; } }
+
 .js-start {
   cursor: pointer; }
-  @media (max-width: 660px) {
-    .js-start {
-      margin-bottom: -10px; } }
 
 .shwag {
   position: absolute;

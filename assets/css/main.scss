@@ -118,12 +118,14 @@ body {
   padding: 0 15px;
 }
 
-.js-start {
-  cursor: pointer;
-
+.heading {
   @media (max-width: 660px) {
     margin-bottom: -10px;
   }
+}
+
+.js-start {
+  cursor: pointer;
 }
 
 .shwag {
